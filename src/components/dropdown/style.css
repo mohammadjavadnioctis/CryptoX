@@ -1,0 +1,58 @@
+#dropdown-text-field::placeholder{
+   color: white !important;
+}
+
+#dropdown-text-field{
+    background-color: yellow;
+    color: white !important;
+}
+
+
+#country-select-demo::placeholder{
+        color: white !important;
+}
+
+
+
+.css-qzbt6i-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator{
+    color: white !important;
+}
+
+
+
+.dropdown-text-field{
+
+    /* color: white !important; */
+
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    color: white !important;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+    color: white !important;
+}
+/* the color of the lable of the dropdown component  */
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: white !important;
+}
+
+
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: white;
+}
+
+.MuiOutlinedInput-notchedOutline{
+    color: white;
+}
+
+
+.css-fvrjx2-MuiAutocomplete-root{
+    border: 1px solid white;
+}
+
+.white-text{
+    color: white !important;
+    -webkit-text-fill-color: #fefefe;
+
+}

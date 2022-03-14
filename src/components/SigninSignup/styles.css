@@ -1,0 +1,196 @@
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.css-gadse4-MuiPaper-root-MuiGrid-root{
+  background-color: transparent !important;
+}
+
+
+.phone-input{
+  width: 100% !important;
+  background-color: transparent !important;
+  color: #fefefe;
+  border: none !important;
+  
+
+  
+}
+
+.phone-container{
+  /* background-color: transparent !important; */
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+    border: 1px solid rgba(61, 79, 124, var(--tw-border-opacity)) !important;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    font-weight: 400;
+}
+
+.react-tel-input .form-control{
+  border: none;
+}
+
+
+.phone-container:hover{
+
+  border-color: #94a2c7 !important;
+
+}
+
+.phone-container:focus{
+
+  border: none;
+}
+
+
+
+
+.wrapper {
+  direction: rtl !important;
+  height: 80vh;
+  margin: 0 auto;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px 0px rgba(50, 50, 44);
+  width: 40%;
+  background-color: rgba(42, 46, 69, 1);
+  padding: 2rem 1remx;
+  justify-content: center;
+  border-radius: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.registerForm {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.textInput {
+  padding-left: 10px;
+  height: 50px;
+  margin-bottom: 30px;
+  align-self: stretch;
+  font-family: Arial, sans-serif;
+  color: white;
+
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255, 255, 255, 0.7);
+  background-color: transparent;
+}
+
+.registerForm button {
+  position: absolute;
+  bottom: 2rem;
+  background-color: #1976d2; /* Green */
+  border: none;
+  color: white;
+  height: 60px;
+  padding: 15px 32px;
+  width: 75%;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
+
+.textInput::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Arial, sans-serif;
+}
+
+.registerForm button:active {
+  transform: scale(0.9);
+  transition-duration: 100ms;
+}
+
+.registerTitle {
+  font-family: Arial, sans-serif;
+  color: white;
+  align-self: center;
+}
+
+
+.termsWrapper{
+  padding: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.touCheckboxLabel {
+  margin-right: 10px;
+  font-family: Arial, sans-serif;
+  vertical-align: bottom;
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.touCheckbox {
+  
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+}
+
+.disabled {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.disabled:active {
+  transform: none !important;
+}
+
+.invisible {
+  display: none;
+}
+
+.errorMessage {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  padding: 0px 40px;
+  color: red;
+  font-weight: 200;
+  text-align: center;
+}

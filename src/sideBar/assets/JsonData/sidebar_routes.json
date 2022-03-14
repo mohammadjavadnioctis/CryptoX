@@ -1,0 +1,38 @@
+[
+    {
+        "display_name": "داشبورد",
+        "route": "/dashboard/main",
+        "icon": "bx bx-category-alt",
+        "class": "dashboard"
+        
+    },
+    {
+        "display_name": "حساب ",
+        "route": "/dashboard/account",
+        "icon": "bx bx-user-pin",
+        "class": "account"
+    },
+    {
+        "display_name": "دارایی ها",
+        "route": "/dashboard/funds",
+        "icon": "bx bx-wallet-alt"
+    },
+    {
+        "display_name": " تاریخچه",
+        "route": "/dashboard/orders",
+        "icon": "bx bx-list-ul",
+        "class":"history"
+    },
+    {
+        "display_name": "روش های پرداخت",
+        "route": "/dashboard/paymentmehods",
+        "icon": "bx bx-bar-chart-alt",
+        "class": "funding"
+    },
+    {
+        "display_name": "تنظیمات",
+        "route": "dashboard/settings",
+        "icon": "bx bx-cog",
+        "class": "settings"
+    }
+]
